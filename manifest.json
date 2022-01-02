@@ -1,5 +1,5 @@
 {
-   "name": "Full Finder",
+   "name": "Full Finder (dev. version)",
    "description": "Поиск фулла по изображению",
    "manifest_version": 2,
    "background" : { "scripts": ["background.js"] },
@@ -7,5 +7,5 @@
    "minimum_chrome_version": "6",
    "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
    "browser_action": {"default_icon": "search.png","default_popup": "popup.html"},
-   "version": "1.0"
+   "version": "1.1"
 }
